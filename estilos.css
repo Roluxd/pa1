@@ -1,0 +1,101 @@
+body{ background-image: url(imagenes/fondo.jpg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+
+h1{ 
+    color: rgb(81, 179, 218); background-color: white;
+    text-align: end;
+    margin: 5% ;
+font-size: 50px;
+}
+    
+#descripcion{ 
+
+    font-size: 25px;
+}
+
+
+#padre1{ 
+    display: flex;
+    align-items: stretch;
+    height: 200%;
+    padding: 20px;
+    border: 4px solid black;
+   
+}
+
+.cuadro{ 
+    flex: 1;
+    width: 100px;
+    height: 50%;
+    padding: 80px;
+    text-align:left ; 
+    border: 2px solid black;
+    background-color: rgb(245, 245, 236);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 25px;
+    
+
+}
+
+.parrafo{text-align: left; }
+
+
+#padre2{ 
+    display: flex;
+    align-items: start;
+    height: 200%;
+    padding: 20px;
+    border: 4px solid black;
+    justify-content: space-around;
+}
+
+#Resumen{
+
+    background-color: white; 
+    padding: 2%;
+    font-size: 25px;
+}
+
+
+#imagen img{
+display: block;
+margin: auto;
+width: 50%;
+
+}
+
+
+h3{ 
+
+    font-size: 35px;
+}
+
+#Titulo img{ 
+    width:50% ; 
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
